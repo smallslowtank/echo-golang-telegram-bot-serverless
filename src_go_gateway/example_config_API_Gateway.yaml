@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  version: 1.0.0
+servers:
+- url: <служебный_домен>
+paths:
+  /bot:
+    post:
+      x-yc-apigateway-integration:
+        payload_format_version: '0.1'
+        function_id: <идентификатор_функции>
+        tag: $latest
+        type: cloud_functions
+        service_account_id: <идентификатор_сервисного_аккаунта>

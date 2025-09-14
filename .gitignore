@@ -1,0 +1,46 @@
+.idea/
+**/.idea/
+.vscode
+**/.vscode/
+
+.env
+**/.env
+
+# for Python
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+
+# for Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate*
+**/terraform.tfvars
+
+# for TypeScript
+**/dist/
+**/node_modules/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum

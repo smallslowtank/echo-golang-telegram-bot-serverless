@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  version: 1.0.0
+servers:
+- url: <служебный_домен>
+paths:
+  /bot:
+    post:
+      x-yc-apigateway-integration:
+        queue_url: <URL_очереди>
+        action: SendMessage
+        type: cloud_ymq
+        payload_format_type: body
+        folder_id: <идентификатор_каталога>
+        service_account_id: <идентификатор_сервисного_аккаунта>
