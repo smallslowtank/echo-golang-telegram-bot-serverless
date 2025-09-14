@@ -1,6 +1,4 @@
-### Golang Telegram Bot
-
-Примеры эхо-бота на фреймворке Golang Telegram Bot https://github.com/go-telegram/bot/ и стеке serverless-технологий Yandex Cloud.
+Примеры эхо-бота на фреймворке "Golang Telegram Bot" https://github.com/go-telegram/bot/ и стеке serverless-технологий Yandex Cloud.
 
 #### src_go_mq
 
@@ -12,4 +10,4 @@
 
 #### src_go_only_function
 
-Пример с публичной функцией.
+Пример только с публичной функцией.
